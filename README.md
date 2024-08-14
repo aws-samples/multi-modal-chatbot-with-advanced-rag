@@ -27,6 +27,9 @@ cdk synth
 cdk deploy --all --require-approval never
 ```
 
+## Workshop Guide
+You can see full workshop [here](https://catalog.us-east-1.prod.workshops.aws/workshops/a372f3ed-e99d-4c95-93b5-ee666375a387)
+
 # 한국어
 
 ## Advnaced RAG Workshop이란?
@@ -49,3 +52,6 @@ cdk bootstrap
 cdk synth
 cdk deploy --all --require-approval never
 ```
+
+## 워크샵 가이드
+이 [링크](https://catalog.us-east-1.prod.workshops.aws/workshops/a372f3ed-e99d-4c95-93b5-ee666375a387/ko-KR)에서 워크샵 콘텐츠를 확인할 수 있습니다
