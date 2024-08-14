@@ -1,0 +1,19 @@
+{
+  "version": "36.0.0",
+  "files": {
+    "6eee82909dec1440393d6ae4b11ef1c1191320d48cb02287c623f05e28bf7caa": {
+      "source": {
+        "path": "RerankerStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "6eee82909dec1440393d6ae4b11ef1c1191320d48cb02287c623f05e28bf7caa.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
