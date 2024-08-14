@@ -19,7 +19,7 @@ This workshop is available to anyone who wants to:
 
 ## How to deploy CDK stacks
 ```bash
-git clone [this repo]
+git clone https://github.com/aws-samples/multi-modal-chatbot-with-advanced-rag.git
 cd advanced-rag-workshop
 npm i --save-dev @types/node
 cdk bootstrap
@@ -42,7 +42,7 @@ cdk deploy --all --require-approval never
 
 ## CDK 스택 배포 방법
 ```bash
-git clone [this repo]
+git clone https://github.com/aws-samples/multi-modal-chatbot-with-advanced-rag.git
 cd advanced-rag-workshop
 npm i --save-dev @types/node
 cdk bootstrap
