@@ -20,11 +20,8 @@ sudo -u ec2-user -i <<'EOF'
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U opensearch-py==2.6.0
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U sqlalchemy #==2.0.1
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U pypdf==4.2.0
-/home/ec2-user/anaconda3/envs/python3/bin/python -m #pip install -U spacy
-# /home/ec2-user/anaconda3/envs/python3/bin/python -m spacy download ko_core_news_md
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U ipython==8.25.0
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U ipywidgets==8.1.3
-#/home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U llmsherpa
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U anthropic==0.30.0
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U faiss-cpu==1.8.0.post1
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U jq==1.7.0
@@ -40,14 +37,15 @@ sudo yum install -y poppler-utils
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U numexpr==2.10.1
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U pdf2image==1.17.0
 
-#sudo sh install_tesseract.sh
-#sudo sh SageMaker/aws-ai-ml-workshop-kr/genai/aws-gen-ai-kr/00_setup/install_tesseract.sh
 sudo amazon-linux-extras install libreoffice -y
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U "unstructured[all-docs]==0.13.2"
-#sudo rm -rf leptonica-1.84.1 leptonica-1.84.1.tar.gz tesseract-ocr
 
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U python-dotenv==1.0.1
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U llama-parse==0.4.4
 /home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U pymupdf==1.24.7
+
+# Uninstall nltk 3.8.2 and install 3.8.1
+/home/ec2-user/anaconda3/envs/python3/bin/python -m pip uninstall -y nltk
+/home/ec2-user/anaconda3/envs/python3/bin/python -m pip install -U nltk==3.8.1
 
 EOF
