@@ -11,7 +11,7 @@ sudo apt-get install -y python3.8-venv
 
 # Clone repository
 cd /home/ubuntu
-sudo git clone https://github.com/ottlseo/advanced-rag-workshop.git
+sudo git clone https://github.com/aws-samples/multi-modal-chatbot-with-advanced-rag.git
 
 # Create virtual environment
 sudo python3 -m venv --copies /home/ubuntu/my_env
@@ -19,7 +19,7 @@ sudo chown -R ubuntu:ubuntu /home/ubuntu/my_env
 source /home/ubuntu/my_env/bin/activate
 
 # Install dependencies
-cd advanced-rag-workshop/application
+cd multi-modal-chatbot-with-advanced-rag/application
 pip3 install -r requirements.txt
 
 # Create systemd service
