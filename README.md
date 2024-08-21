@@ -1,9 +1,11 @@
-# Advanced RAG Workshop
+# Amazon Bedrock Q&A multi-modal chatbot with advanced RAG
+
+:sparkles: [Workshop Link](https://studio.us-east-1.prod.workshops.aws/workshops/public/a372f3ed-e99d-4c95-93b5-ee666375a387)
+:sparkles: Contact: [Bailey(Sohyeon) Cho](https://www.linkedin.com/in/csbailey/)
 
 Langauge
 * [English](English)
 * [한국어](한국어)
-
 
 # English
 ## What is Advanced RAG Workshop?
