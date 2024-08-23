@@ -1,6 +1,6 @@
 # How to run this application
 
-> If you clone this repo and run 'cdk deploy', you don't need to run it yourself.
+> If you clone this repo and run 'cdk deploy', you don't need to run the streamlit application yourself.
 
 ## Structure
 
