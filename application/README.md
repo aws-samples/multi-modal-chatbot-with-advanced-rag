@@ -1,5 +1,7 @@
 # How to run this application
 
+> If you clone this repo and run 'cdk deploy', you don't need to run it yourself.
+
 ## Structure
 
 1. `bedrock.py`
@@ -30,4 +32,4 @@ streamlit run streamlit.py --server.port 8080
 
 3. 접속하기
 
-- Streamlit 작동 시 표시되는 External link로 접속
+- Streamlit 작동 시 표시되는 External link 혹은 EC2 public ip로 접속
