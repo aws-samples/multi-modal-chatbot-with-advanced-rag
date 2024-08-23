@@ -13,7 +13,7 @@
 ## Start
 1. web_ui 폴더 접근
 ```
-cd aws-ai-ml-workshop-kr/genai/aws-gen-ai-kr/20_applications/02_qa_chatbot/04_web_ui/
+cd multi-modal-chatbot-with-advanced-rag/application
 ```
 
 2. Python 종속 라이브러리 설치
