@@ -1,6 +1,6 @@
 # Amazon Bedrock Q&A multi-modal chatbot with advanced RAG
 
-:link: AWS Workshop [Amazon Bedrock Q&A multi-modal chatbot with advanced RAG](https://studio.us-east-1.prod.workshops.aws/workshops/public/a372f3ed-e99d-4c95-93b5-ee666375a387)
+:link: AWS Workshop [Amazon Bedrock Q&A multi-modal chatbot with advanced RAG](https://catalog.us-east-1.prod.workshops.aws/workshops/a372f3ed-e99d-4c95-93b5-ee666375a387)
 
 :telephone_receiver: Issue Report [Bailey(Sohyeon) Cho](https://www.linkedin.com/in/csbailey/)
 
