@@ -1,6 +1,6 @@
 # Amazon Bedrock Q&A multi-modal chatbot with advanced RAG
 
-:link: AWS Workshop [Amazon Bedrock Q&A multi-modal chatbot with advanced RAG](https://catalog.us-east-1.prod.workshops.aws/workshops/a372f3ed-e99d-4c95-93b5-ee666375a387)
+:link: AWS Workshop [Amazon Bedrock Q&A multi-modal chatbot with advanced RAG](https://catalog.us-east-1.prod.workshops.aws/workshops/a372f3ed-e99d-4c95-93b5-ee666375a387/en-US)
 
 :telephone_receiver: Issue Report [Bailey(Sohyeon) Cho](https://www.linkedin.com/in/csbailey/)
 
@@ -31,7 +31,7 @@ cdk deploy --all --require-approval never
 ```
 
 ## :mega: Workshop Guide
-You can see full workshop [here](https://catalog.us-east-1.prod.workshops.aws/workshops/a372f3ed-e99d-4c95-93b5-ee666375a387)
+You can see full workshop [here](https://catalog.us-east-1.prod.workshops.aws/workshops/a372f3ed-e99d-4c95-93b5-ee666375a387/en-US)
 
 # 한국어
 
@@ -57,4 +57,4 @@ cdk deploy --all --require-approval never
 ```
 
 ## :mega: 워크샵 가이드
-이 [링크](https://catalog.us-east-1.prod.workshops.aws/workshops/a372f3ed-e99d-4c95-93b5-ee666375a387/ko-KR)에서 워크샵 콘텐츠를 확인할 수 있습니다
+이 [링크](https://catalog.us-east-1.prod.workshops.aws/workshops/a372f3ed-e99d-4c95-93b5-ee666375a387/ko-KR)에서 워크샵 콘텐츠를 확인할 수 있습니다.
