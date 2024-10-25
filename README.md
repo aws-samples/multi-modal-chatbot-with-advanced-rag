@@ -15,8 +15,7 @@
 ## :mega: Who need this workshop?
 > No prior knowledge is required to perform this workshop.
 
-This workshop is available to anyone who wants eiifccvjrinbddillccfhgkdilbgkvehiljcildlbncu
-to:
+This workshop is available to anyone who wants to:
 * Acquire production-level RAG skills
 * Increase technical understanding through hands-on practice
 * Increase customer engagement with AWS services 
