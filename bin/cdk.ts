@@ -25,17 +25,17 @@ const sagemakerNotebookStack = new SagemakerNotebookStack(app, `${STACK_PREFIX}-
 const opensearchStack = new OpensearchStack(app, `${STACK_PREFIX}-OpensearchStack`, envSetting);
 opensearchStack.addDependency(sagemakerNotebookStack);
 
-const customResourceStack = new CustomResourceStack(app, `${STACK_PREFIX}-CustomResourceStack`, envSetting)
-customResourceStack.addDependency(opensearchStack);
-
 // Deploy Reranker stack using cloudformation template 
 const rerankerStack = new CfnInclude(opensearchStack, `${STACK_PREFIX}-RerankerStack`, {
   templateFile: 'lib/rerankerStack/RerankerStack.template.json'
 });
 
+const customResourceStack = new CustomResourceStack(app, `${STACK_PREFIX}-CustomResourceStack`, envSetting)
+customResourceStack.addDependency(opensearchStack);
+
 // Deploy EC2 stack
 const ec2Stack = new EC2Stack(app, `${STACK_PREFIX}-EC2Stack`, envSetting);
 //ec2Stack.addDependency(opensearchStack);
-ec2Stack.node.addDependency(rerankerStack);
+ec2Stack.node.addDependency(customResourceStack);
 
 app.synth();
