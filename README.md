@@ -5,8 +5,8 @@
 :telephone_receiver: Issue Report [Bailey(Sohyeon) Cho](https://www.linkedin.com/in/csbailey/)
 
 :globe_with_meridians: Langauge
-* [English](English)
-* [한국어](한국어)
+* [English](#English)
+* [한국어](#한국어)
 
 # English
 ## :mega: What is Advanced RAG Workshop?
