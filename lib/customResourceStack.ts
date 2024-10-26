@@ -29,7 +29,7 @@ export class CustomResourceStack extends cdk.Stack {
 
     lambdaRole.addToPolicy(new iam.PolicyStatement({
       actions: ['es:AssociatePackage', 'es:DescribePackages', 'es:DescribeDomain', 'logs:CreateLogGroup', 'logs:CreateLogStream', 'logs:PutLogEvents'],
-      resources: ["*"], //"*"
+      resources: ["*"], // domainArn
     }));
 
     
