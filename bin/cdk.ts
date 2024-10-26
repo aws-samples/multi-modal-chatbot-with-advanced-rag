@@ -35,7 +35,6 @@ customResourceStack.addDependency(opensearchStack);
 
 // Deploy EC2 stack
 const ec2Stack = new EC2Stack(app, `${STACK_PREFIX}-EC2Stack`, envSetting);
-//ec2Stack.addDependency(opensearchStack);
 ec2Stack.node.addDependency(customResourceStack);
 
 app.synth();
