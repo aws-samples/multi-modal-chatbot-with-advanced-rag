@@ -8,5 +8,5 @@ langchain-community==0.2.5
 matplotlib==3.7.0
 requests==2.32.3
 streamlit==1.35.0
-urllib3==1.26.18
+urllib3==1.26.19
 opensearch-py==2.6.0
