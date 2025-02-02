@@ -20,6 +20,7 @@ source /home/ubuntu/my_env/bin/activate
 
 # Install dependencies
 cd multi-modal-chatbot-with-advanced-rag/application
+sudo apt install -y cargo
 pip3 install -r requirements.txt
 
 # Create systemd service
