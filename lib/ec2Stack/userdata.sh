@@ -11,7 +11,7 @@ sudo apt-get install -y python3-venv
 
 # Clone repository
 cd /home/ubuntu
-sudo git clone https://github.com/ottlseo/multi-modal-chatbot-with-advanced-rag.git
+sudo git clone https://github.com/aws-samples/multi-modal-chatbot-with-advanced-rag.git
 
 # Create virtual environment
 sudo python3 -m venv --copies /home/ubuntu/my_env
@@ -22,8 +22,6 @@ source /home/ubuntu/my_env/bin/activate
 cd multi-modal-chatbot-with-advanced-rag/application
 sudo apt install -y cargo
 pip3 install -r requirements.txt
-# python3 -m pip uninstall tokenizers
-# python3 -m pip install tokenizers==0.20.3
 
 # Create systemd service
 sudo sh -c "cat <<EOF > /etc/systemd/system/streamlit.service
