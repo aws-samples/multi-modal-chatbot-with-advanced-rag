@@ -22,6 +22,8 @@ source /home/ubuntu/my_env/bin/activate
 cd multi-modal-chatbot-with-advanced-rag/application
 sudo apt install -y cargo
 pip3 install -r requirements.txt
+# python3 -m pip uninstall tokenizers
+# python3 -m pip install tokenizers==0.20.3
 
 # Create systemd service
 sudo sh -c "cat <<EOF > /etc/systemd/system/streamlit.service

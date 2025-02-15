@@ -1,5 +1,6 @@
 anthropic==0.38.0
 httpx==0.27.2
+tokenizers==0.20.3
 boto3==1.34.122
 botocore==1.34.122
 ipython==8.2.0
